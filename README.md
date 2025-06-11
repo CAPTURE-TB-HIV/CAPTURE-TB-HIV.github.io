@@ -1,6 +1,6 @@
 # CAPTURE
 
-This repository hosts the Jekyll website served at **https://CAPTURE-HIV-TB.github.io**.
+This repository hosts the Jekyll website served at **https://capture-tb-hiv.github.io/**.
 
 ## Requirements
 * Jekyll: https://jekyllrb.com/docs/installation/
