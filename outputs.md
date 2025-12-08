@@ -44,6 +44,6 @@ layout: default
 
 ## Tools
 
-The following open source software tools were designed to make methods developed by CAPTURE more accessible.
+The following open source software tools are designed to make methods developed by CAPTURE more accessible.
 
 {% include tool-section.html %}
