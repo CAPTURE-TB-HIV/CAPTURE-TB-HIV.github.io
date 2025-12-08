@@ -24,3 +24,9 @@ baseurl: ""  # leave blank for user/organisation pages
 markdown: kramdown
 theme: null
 github_username: CAPTURE-TB-HIV
+include:
+  - node_modules
+# _config.yml
+sass:
+  load_paths:
+    - node_modules

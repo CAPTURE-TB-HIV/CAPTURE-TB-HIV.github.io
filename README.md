@@ -25,7 +25,7 @@ Open <http://localhost:4000> in your browser to preview the site.
   web: a web app if it exists
   excel: a downloadable Excel workbook if it exists
   doi: the DOI if it has one
-  version: r-package
+  version: where shields.io should look for the package version. probably one of "r-package" or "package-json"
   paper: link to associated paper if it exists
   description: description of the tool
 ```
