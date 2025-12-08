@@ -7,9 +7,12 @@
 			{% else %}
 			<a href="{{ tool.docs | default: tool.web }}"><b>{{ tool.name }}</b></a>
 			{% endif %}
-			<img alt="GitHub License" src="https://img.shields.io/github/license/CAPTURE-TB-HIV/{{tool.gh_repo}}" />
+			<img alt="GitHub License" src="https://img.shields.io/github/license/CAPTURE-TB-HIV/{{tool.gh_repo | downcase}}" />
+			{% if tool.version_src %}
+			<img alt="version" src="https://img.shields.io/github/{{tool.version_src}}/v/CAPTURE-TB-HIV/{{tool.gh_repo}}">
+			{% endif %}
 			{% if tool.version %}
-			<img alt="version" src="https://img.shields.io/github/{{tool.version}}/v/CAPTURE-TB-HIV/{{tool.gh_repo}}">
+			<img alt="Static Badge" src="https://img.shields.io/badge/version-{{tool.version | cgi_escape}}-orange">
 			{% endif %}
 			{% if tool.doi %}
 			<img alt="Static Badge" src="https://img.shields.io/badge/DOI-{{tool.doi}}-blue">

@@ -2,8 +2,7 @@
   docs: "https://capture-tb-hiv.github.io/capturetb/"
   gh_repo: capturetb
   web: "https://capture-tb-hiv.github.io/capturetb-web"
-  doi: test
-  version: r-package
+  version: 1.0.0--beta
   paper: 
   description: >
     capturetb is an R package for the estimation of TB outpatient visit costs according
@@ -18,6 +17,6 @@
     levels of scale using a mechanistic cost function that captures economies of scale and scope.
     The model is also available to download as an Excel workbook.
   paper:
-  version: package-json
+  version_src: package-json
   web: "https://capture-tb-hiv.github.io/CASC/"
   excel: "download"
