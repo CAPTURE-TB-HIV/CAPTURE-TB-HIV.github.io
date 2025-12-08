@@ -1,0 +1,50 @@
+<div class="list-circles-item">
+	<div class="row text-center mt-4">
+		<div class="col">
+			{% if person.img %}
+			{% if person.url %}
+			<a href="{{ person.url }}"><img src="{{ person.img }}" class="item-img" /></a>
+			{% else %}
+			<img src="{{ person.img }}" class="item-img" />
+			{% endif %}
+			{% endif %}
+		</div>
+	</div>
+	<h4 class="item-name text-center mt-2">{{ person.name }}</h4>
+	<div class="row text-center">
+		<div class="col">
+			<div>{{ person.role }}</div>
+		</div>
+	</div>
+	<div class="row text-center">
+		<div class="col">
+			<div>{{ person.affiliation }}</div>
+		</div>
+	</div>
+	<div class="row text-center">
+		<div class="col">
+			<div class="item-links my-3">
+				{% if person.url %}
+				<a class="btn btn-primary btn-sm rounded-2" href="{{ person.url }}" title="Website">
+					<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-link"
+						viewBox="0 0 16 16">
+						<path
+							d="M6.354 5.5H4a3 3 0 0 0 0 6h3a3 3 0 0 0 2.83-4H9q-.13 0-.25.031A2 2 0 0 1 7 10.5H4a2 2 0 1 1 0-4h1.535c.218-.376.495-.714.82-1z" />
+						<path
+							d="M9 5.5a3 3 0 0 0-2.83 4h1.098A2 2 0 0 1 9 6.5h3a2 2 0 1 1 0 4h-1.535a4 4 0 0 1-.82 1H12a3 3 0 1 0 0-6z" />
+					</svg>
+				</a>
+				{% endif %}
+				{% if person.email %}
+				<a class="btn btn-primary btn-sm rounded-2" href="mailto:{{ person.email }}" title="Email">
+					<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-envelope"
+						viewBox="0 0 16 16">
+						<path
+							d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1zm13 2.383-4.708 2.825L15 11.105zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741M1 11.105l4.708-2.897L1 5.383z" />
+					</svg>
+				</a>
+				{% endif %}
+			</div>
+		</div>
+	</div>
+</div>

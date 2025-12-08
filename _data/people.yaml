@@ -1,0 +1,72 @@
+
+- name: Sedona Sweeney
+  url: https://www.lshtm.ac.uk/aboutus/people/sweeney.sedona
+  email: sedona.sweeney@lshtm.ac.uk
+  img: '/assets/images/people/Sedona.jpeg'
+  role: Principal Investigator
+  affiliation: LSHTM
+
+- name: Lorna Guinness
+  url: https://www.lshtm.ac.uk/aboutus/people/guinness.lorna
+  email: lorna.guinness@lshtm.ac.uk
+  img: '/assets/images/people/Lorna.jpeg'
+  role: CO-Principal Investigator
+  affiliation: LSHTM
+
+- name: Fiammetta Bozzani
+  url: https://www.lshtm.ac.uk/aboutus/people/bozzani.fiammetaa
+  email: fiammetta.bozzani@lshtm.ac.uk
+  img: '/assets/images/people/Fiammeta.jpeg'
+  role: CO-Investigator
+  affiliation: LSHTM
+
+- name: Nicolas Menzies
+  email: nmenzies@hsph.harvard.edu
+  img: '/assets/images/people/Nick.jpeg'
+  role: CO-Investigator
+  affiliation: Harvard
+
+- name: Maninder Pal Singh
+  url: https://www.lshtm.ac.uk/aboutus/people/singh.maninder
+  email: maninder.singh@lshtm.ac.uk
+  img: '/assets/images/people/Maninder.jpeg'
+  role: Researcher
+  affiliation: LSHTM
+
+- name: Andres Madriz Montero
+  url: https://www.lshtm.ac.uk/aboutus/people/madriz.andres
+  email: andres.madriz@lshtm.ac.uk
+  img: '/assets/images/people/Andres.jpeg'
+  role: Researcher
+  affiliation: LSHTM
+
+- name: Alex Hill
+  url: https://www.lshtm.ac.uk/aboutus/people/hill.alex
+  email: alex.hill@lshtm.ac.uk
+  img: '/assets/images/people/Alex.jpeg'
+  role: Researcher
+  affiliation: LSHTM
+
+- name: Nicole Swartwood
+  email: nswartwood@hsph.harvard.edu
+  img: '/assets/images/people/Nicole.jpeg'
+  role: Researcher
+  affiliation: Harvard
+
+- name: Stephanie Su
+  email: stephaniesu@hsph.harvard.edu
+  img: '/assets/images/people/Stephanie.png'
+  role: Researcher
+  affiliation: Harvard
+
+- name: Yunfei Li
+  email: yul049@mail.harvard.edu
+  img: '/assets/images/people/Yunfei.png'
+  role: Researcher
+  affiliation: Harvard
+
+- name: Mathilda Regan
+  email: mathildaregan@hsph.harvard.edu
+  img: '/assets/images/people/Mathilda.png'
+  role: Researcher
+  affiliation: Harvard

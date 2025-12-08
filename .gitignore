@@ -4,4 +4,5 @@
 vendor
 .idea
 _site
-
+node_modules
+index_files

@@ -1,0 +1,10 @@
+<div class="row mb-4">
+	<div class="col-sm-8">
+		<section class="rounded-0">
+		{% assign tools = site.data.tools %}
+				{% for tool in tools %}
+					{% include tool.html tool=tool %}
+				{% endfor %}	
+		</section>
+	</div>
+</div>

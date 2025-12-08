@@ -1,0 +1,23 @@
+- name: capturetb
+  docs: "https://capture-tb-hiv.github.io/capturetb/"
+  gh_repo: capturetb
+  web: "https://capture-tb-hiv.github.io/capturetb-web"
+  doi: test
+  version: r-package
+  paper: 
+  description: >
+    capturetb is an R package for the estimation of TB outpatient visit costs according
+    to facility characteristics. The package vignettes provide detailed documentation on use.
+    There is also a Javascript web app that makes the same models available online.
+
+- name: CASC
+  gh_repo: CASC
+  type: "Web app"
+  description: >
+    CASC is an online Javascript app for the estimation of program costs at different 
+    levels of scale using a mechanistic cost function that captures economies of scale and scope.
+    The model is also available to download as an Excel workbook.
+  paper:
+  version: package-json
+  web: "https://capture-tb-hiv.github.io/CASC/"
+  excel: "download"

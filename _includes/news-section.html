@@ -1,0 +1,35 @@
+<div class="row">
+	<div class="col">
+		<section class="news p-3 rounded-0">
+			<h2 class="news-heading">News</h2>
+
+			{% assign items = site.data.news | sort: "date" | reverse %}
+
+			<ul class="news-list p-0">
+				{% if items and items.size > 0 %}
+				{% for item in items limit: 5 %}
+				<li class="news-item d-block border-bottom mt-2 border-2">
+					<p class="news-meta mb-1">
+						<time datetime="{{ item.date | date_to_xmlschema }}">
+							{{ item.date | date: "%-d %B %Y" }}
+						</time>
+					</p>
+					<h5 class="news-title">
+						{{ item.title }}
+					</h5>
+					{% if item.description %}
+					<p class="news-description">
+						{{ item.description }}
+					</p>
+					{% endif %}
+				</li>
+				{% endfor %}
+				{% else %}
+				<li class="news-item">
+					<p>No news yet. Check back soon.</p>
+				</li>
+				{% endif %}
+			</ul>
+		</section>
+	</div>
+</div>

@@ -1,0 +1,6 @@
+<div class="row mb-4">
+	{% assign people = site.data.people %}
+	{% for person in people %}
+	{% include person.html person=person %}
+	{% endfor %}
+</div>
