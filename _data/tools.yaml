@@ -1,4 +1,4 @@
-- name: capturetb
+- name: TB Outpatient Unit Cost Estimates (capturetb)
   docs: "https://capture-tb-hiv.github.io/capturetb/"
   gh_repo: capturetb
   web: "https://capture-tb-hiv.github.io/capturetb-web"
@@ -9,7 +9,7 @@
     to facility characteristics. The package vignettes provide detailed documentation on use.
     There is also a Javascript web app that makes the same models available online.
 
-- name: CASC
+- name: CAPTURE Scale and Scope Mechanistic Cost Function (CASC)
   gh_repo: CASC
   type: "Web app"
   description: >
