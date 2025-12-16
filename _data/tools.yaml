@@ -12,6 +12,7 @@
 - name: CAPTURE Scale and Scope Mechanistic Cost Function (CASC)
   gh_repo: CASC
   type: "Web app"
+  docs: "assets/CAPTURE_cost_function_manual.pdf"
   description: >
     CASC is an online Javascript app for the estimation of program costs at different 
     levels of scale using a mechanistic cost function that captures economies of scale and scope.
