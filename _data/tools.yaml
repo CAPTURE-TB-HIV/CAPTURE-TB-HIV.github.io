@@ -19,4 +19,4 @@
   paper:
   version_src: package-json
   web: "https://capture-tb-hiv.github.io/CASC/"
-  excel: "download"
+  excel: "/assets/CAPTURE_mechanistic_cost_function.xlsx"

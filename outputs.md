@@ -8,12 +8,16 @@ layout: default
 
 ## Guidance
 
+<ul>
  {% for guide in guides %}
 
-* <a href="{{guide.file}}">{{guide.name}}</a>
+<li>
+ <a href="{{guide.file}}">{{guide.name}}</a>
+<p>{{guide.description}}</p>
+</li>
 
  {% endfor %}
-
+</ul>
 {% endif %}
 
 {% assign presentations = site.data.outputs.presentations %}
@@ -21,12 +25,15 @@ layout: default
 
 ## Presentations
 
+<ul>
  {% for presentation in presentations %}
 
-* <a href="{{presentation.file}}">{{presentation.name}}</a>
+<li> <a href="{{presentation.file}}">{{presentation.name}}</a>
+	<p>{{presentation.description}}</p>
+</li>
 
  {% endfor %}
-
+</ul>
 {% endif %}
 
 {% assign papers = site.data.outputs.papers %}

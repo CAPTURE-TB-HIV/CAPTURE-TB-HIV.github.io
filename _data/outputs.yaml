@@ -1,7 +1,14 @@
 presentations:
-  - name: Costs at scale - a cost function for HIV & TB services to support allocative efficiency analysis.  Presented at the 2026 World Conference on Lung Health
+  - name: Costs at scale - a cost function for HIV & TB services to support allocative efficiency analysis.
+    description: Presented at the 2026 World Conference on Lung Health
     file: assets/WCLH_CAPTURE.pdf
     
 guidance:
+  - name: CAPTURE Scale and Scope Mechanistic Cost Function (CASC) User Manual
+    description: >
+      A user manual for the CASC (CAPTURE SCale and SCope) tool
+      for estimating marginal costs of new/integrated HIV and TB services. The Excel workbook is available
+       <a href="assets/CAPTURE_mechanistic_cost_function.xlsx">here</a>.
+    file: assets/CAPTURE_cost_function_manual.pdf
 
 papers:
